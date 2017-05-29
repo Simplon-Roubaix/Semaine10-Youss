@@ -94,9 +94,97 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   @font-face {
+    font-family: "pba";
+    src: url(../fonts/pba.ttf);
+   }
+/**********************Section video******************************************/
+* {
+  border: 1px solid black;
+}
+iframe {
+  height: 461px;
+  position: relative;
+}
+
+#collection {
+display: block;
+position: absolute;
+top: 60px;
+width: 100%;
+}
+
+#visiter {
+  display: block;
+  position: absolute;
+  top: 220px;
+  width: 100%;
+}
+
+.titre {
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+
+}
+
+#video p {
+  color:white;
+  text-align: center;
+  margin-top: 0;
+}
+
+#video img {
+  position: absolute;
+  height: 200px;
+
+
+}
+
+.icon-chef-oeuvre::before {
+    content: "\e905";
+    font-family:"pba";
+}
+
+/**************************Desktop*************************************
+*************************************************************************/
+@media (min-width:980px) {
+
+#video {
+  display:inline;
+}
+#collection{
+  display: inline;
+  width: 500px;
+  position: absolute;
+  left: 120px;
+  top: 120px;
+}
+
+#visiter {
+  display: inline;
+  width: 500px;
+  position: absolute;
+  right: 120px;
+  top: 120px;
+}
 
 
 
+
+.titre {
+  font-size: 50px;
+}
+
+#video p {
+  font-size: 30px
+}
+
+#video img {
+  height: 300px;
+}
+
+}
 
 
 
