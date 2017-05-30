@@ -235,8 +235,6 @@ textarea {
     margin-left: 12%;
 }
 
-.white span {}
-
 .titre {
     font-size: 2em;
     font-weight: bold;
@@ -244,316 +242,6 @@ textarea {
 
 
 /*end of section visite*/
-
-
-/*==================*/
-
-
-/*SECTION PRESENTATION*/
-
-
-/*==================*/
-
-#presentation {
-    background-image: url("../img/Palais-des-Beaux-Arts-de-Lille.jpg");
-    width: 100%;
-    height: 500px;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#presentation .collections,
-#presentation .visiter,
-#presentation .titre-blanc {
-    width: 70%;
-    align-self: center;
-    text-decoration: none;
-}
-
-.titre-blanc .titre,
-.titre-blanc .titre img {
-    width: 100%;
-}
-
-#presentation .les-dessins,
-.les-2-dessins,
-.les-3-dessins {
-    align-self: center;
-    height: 25px;
-}
-
-#presentation .les-dessins {
-    width: 100%;
-    border-top: 8px solid white;
-    border-right: 8px solid white;
-}
-
-.les-2-dessins {
-    width: 100%;
-    border-bottom: 8px solid white;
-    border-left: 8px solid white;
-}
-
-#presentation .les-dessins,
-.les-2-dessins {
-    margin-top: 2em;
-}
-
-.les-3-dessins {
-    width: 100%;
-    height: 20px;
-    align-self: center;
-    /*border-bottom:8px solid white;*/
-    border-right: 8px solid white;
-    border-right: 8px solid white;
-}
-
-#presentation .collection {
-    text-align: center;
-    color: white;
-}
-
-#presentation .collection span {
-    color: white;
-    font-size: 25px;
-}
-
-#presentation .collection span:hover {
-    color: rgb(184, 72, 76);
-}
-
-#presentation .collection h2 {
-    font-size: 25px;
-    font-weight: bold;
-}
-
-#presentation .collection p {
-    font-size: 10px;
-    font-weight: bold;
-}
-
-
-/*------End of section presentation-------*/
-
-
-/*==================*/
-
-
-/*SECTION EVENEMENT*/
-
-
-/*==================*/
-
-#evenement .carousel-inner .carousel-item {
-    height: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-#evenement .carousel-inner .carousel-item:nth-child(1) {
-    background-image: url(../img/vieilhomme.jpg);
-}
-
-#evenement .carousel-inner .carousel-item:nth-child(2) {
-    background-image: url(../img/relieflille.jpg);
-}
-
-#evenement .carousel-inner .carousel-item:nth-child(3) {
-    background-image: url(../img/rouge.jpg);
-}
-
-#evenement .carousel-inner .carousel-item:nth-child(4) {
-    background-image: url(../img/solgris.jpg);
-}
-
-#evenement .carousel-inner .carousel-item:nth-child(5) {
-    background-image: url(../img/selfie.jpg);
-}
-
-
-/*Carousel Caption Contents*/
-
-#evenement .carousel-inner .carousel-item .carousel-caption {
-    margin-bottom: 10px;
-}
-
-#evenement .carousel-inner .carousel-item .carousel-caption a {
-    color: #FFF;
-    an+b
-}
-
-#evenement .carousel-inner .carousel-item .carousel-caption p:nth-child(1) {
-    font-size: 12px;
-    font-weight: bold;
-    margin-bottom: 3em;
-}
-
-#evenement .carousel-inner .carousel-item .carousel-caption i {
-    color: #FFF;
-}
-
-#evenement .carousel-inner .carousel-item .carousel-caption h2 {
-    font-family: "lovelo";
-    font-size: 23px;
-}
-
-#evenement .carousel-inner .carousel-item .carousel-caption .prez {
-    font-family: "novecentobook";
-    font-size: 23px;
-}
-
-#evenement .carousel-inner .carousel-item .carousel-caption .date {
-    font-family: sans-serif;
-    font-weight: bold;
-}
-
-#evenement .carousel-inner .carousel-item .carousel-caption .lockbartop {
-    height: 14px;
-    width: 100%;
-    border: 8px solid #FFF;
-    border-bottom: none;
-}
-
-#evenement .carousel-inner .carousel-item .carousel-caption .lockbarbot {
-    height: 14px;
-    width: 100%;
-    border: 8px solid #FFF;
-    border-top: none;
-}
-
-#evenement #prevI,
-#evenement #nextI {
-    color: #FFF;
-}
-
-#evenement #carouselIndicators ol li {
-    height: 12px;
-    max-width: 12px;
-    border: 2px solid white;
-}
-
-
-/*==================*/
-
-
-/*END OF SECTION EVENEMENT*/
-
-
-/*==================*/
-
-
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-
-/*==================*/
-
-
-/*SECTION OEUVRE*/
-
-
-/*==================*/
-
-#titregalerie {
-    text-align: center;
-    color: #FFF;
-    background-color: #1D1D1E;
-}
-
-#titregalerie h3 {
-    font-family: "lovelo";
-    font-size: 17px;
-    padding-top: 22px;
-}
-
-#titregalerie p {
-    font-family: "biko";
-    font-size: 10px;
-    margin-top: -10px;
-    margin-bottom: -5px;
-}
-
-#titregalerie i {
-    font-size: 10px;
-    margin-right: 20px;
-    color: inherit;
-}
-
-#oeuvreclé div {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 430px;
-    display: flex;
-}
-
-#oeuvreclé div:nth-child(1) {
-    background-image: url(../img/1eOeuvre.jpg);
-}
-
-#oeuvreclé div:nth-child(2) {
-    background-image: url(../img/2eOeuvre.jpg);
-}
-
-#oeuvreclé div:nth-child(3) {
-    background-image: url(../img/3eOeuvre.jpg);
-}
-
-#oeuvreclé div:nth-child(4) {
-    background-image: url(../img/4eOeuvre.jpg);
-}
-
-#oeuvreclé .whiteArt {
-    align-content: flex-end;
-    width: 250px;
-    height: 170px;
-    background-color: #FFF;
-    margin: auto;
-    padding: 23.5px 20px 0px 23.5px;
-    color: black;
-}
-
-#oeuvreclé .whiteArt h3 {
-    font-family: "lovelo";
-    font-size: 20px;
-}
-
-#oeuvreclé .whiteArt p {
-    font-family: "biko";
-    font-size: 13px;
-}
-
-
-/*==================*/
-
-
-/*SECTION PINK PART*/
-
-
-/*==================*/
-
-.pink {
-    background-color: #D8383F;
-    color: white;
-    font-size: 10px;
-}
-
-.apps h3 {
-    font-size: 15px;
-}
-
-
-/*section white*/
-
-.white h3 {
-    font-size: 15px;
-    font-weight: bold;
-}
-
-
-/*end of section white*/
 
 
 /*footer rules*/
@@ -632,21 +320,6 @@ textarea {
     font-size: 1em;
 }
 
-
-/*======================================================*/
-
-
-/*======================================================*/
-
-
-/*==================VISITER.HTML==========================*/
-
-
-/*======================================================*/
-
-
-/*======================================================*/
-
 #profil {
     background-color: #1D1D1E;
 }
@@ -718,41 +391,6 @@ textarea {
 /*================================================*/
 
 @media (min-width: 670px) {
-    #evenement .carousel-inner .carousel-item {
-        height: 800px;
-    }
-    /*Carousel Caption Contents*/
-    #evenement .carousel-inner .carousel-item .carousel-caption {
-        margin-bottom: 5em;
-    }
-    #evenement .carousel-inner .carousel-item .carousel-caption p:nth-child(1) {
-        font-size: 24px;
-    }
-    #evenement .carousel-inner .carousel-item .carousel-caption article {
-        padding-top: 2.5em;
-    }
-    #evenement .carousel-inner .carousel-item .carousel-caption i {
-        font-size: 50px
-    }
-    #evenement .carousel-inner .carousel-item .carousel-caption h2 {
-        font-size: 46px;
-        margin-top: 0.3em;
-    }
-    #evenement .carousel-inner .carousel-item .carousel-caption .prez {
-        font-size: 46px;
-    }
-    #evenement .carousel-inner .carousel-item .carousel-caption .date {
-        font-size: 30px;
-    }
-    #evenement .carousel-inner .carousel-item .carousel-caption .lockbartop,
-    #evenement .carousel-inner .carousel-item .carousel-caption .lockbarbot {
-        height: 28px;
-        border-width: 16px;
-    }
-    #evenement #carouselIndicators ol li {
-        height: 24px;
-        max-width: 24px;
-    }
     /*-------style header fo tablet---------*/
     #presentation {
         height: 600px;
@@ -973,6 +611,9 @@ textarea {
         background-size: cover;
         background-position: center;
     }
+    #profil a:hover {
+        text-decoration: none;
+    }
     #profil a:nth-child(1) {
         background-image: url(../img/Individuel.jpg);
     }
@@ -995,6 +636,9 @@ textarea {
     #profil a article p {
         font-size: 18px;
         padding-left: 15px;
+    }
+    #profil a article p:hover {
+        color: #d8383f;
     }
     #profil a article p span {
         font-size: 27px;
