@@ -106,6 +106,10 @@ textarea {
        content: "\e905";
        font-family:"pba";
    }
+
+   body {
+     background-color: black;
+   }
 /**********************Section video******************************************/
 * {
   border: 1px solid black;
@@ -131,9 +135,8 @@ iframe {
   position: absolute;
   height: 200px;
 }
-/********************************************************/
+/*********************Oeuvres à découvrir***********************************/
 #adecouvrir {
-  background-color: black;
   color: white;
   width: 100%;
   text-align: center;
@@ -144,6 +147,49 @@ iframe {
   margin-bottom: 0px;
 }
 
+#oeuvres img {
+  width: 100%;
+  height: 450px;
+  display: flex;
+}
+
+
+
+#oeuvres {
+  position: relative;
+}
+.encart:hover {
+  color: rgb(216, 56, 63);
+}
+
+/***********************bottom galerie**************************/
+
+#bottompicture {
+  color: white;
+  text-align: center;
+  width: 100%;
+
+}
+ #border {
+   border: 3px solid white;
+   max-width: 80%;}
+
+#border a {
+  text-decoration: none;
+}
+
+#border:hover {
+  border-color: rgb(216, 56, 63);
+}
+
+#border a:hover {
+  color:rgb(216, 56, 63);
+}
+
+ #afficher {
+   margin-top: 60px;
+   margin-bottom: 80px;
+ }
 /**************************MOBILE*****************************
 *******************************************************************/
 
@@ -171,21 +217,6 @@ width: 100%;
   font-size: 10px;
 }
 
-#oeuvres img {
-  width: 100%;
-  height: 450px;
-  display: flex;
-}
-
-#oeuvres article {
-  height: 400px;
-
-}
-
-#oeuvres {
-  position: relative;
-}
-
 .encart {
   min-width: 50%;
   max-height: 50%;
@@ -204,9 +235,23 @@ width: 100%;
   margin-bottom: 20px;
 }
 
-.encart:hover {
-  color: rgb(216, 56, 63);
+.article{
+  height: 450px;
 }
+
+/***********************bottom galerie*******************************/
+
+#border {
+  margin-left: 10%;
+  padding: 10px 20px 10px 20px;
+  font-size: 12px;
+}
+
+#afficher a{
+  color: white;
+}
+
+
 
 
 
@@ -215,13 +260,25 @@ width: 100%;
 /*********************Tablette*************************************
 *********************************************************************/
 @media (min-width:768px) {
-
+/*******************oeuvres a decouvrir*********************************/
 .title {
   font-size: 30px;
 
 }
 
+#oeuvres img {
+  height: 800px;
+}
 
+.article {
+  height: 800px;
+}
+/*****************bottom galerie**********************************/
+#border {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size:20px;
+  margin: auto;
 
 }
 
@@ -281,27 +338,32 @@ width: 100%;
   font-size: 20px;
 }
 
-#oeuvres img {
-  width: 326px;
 
+#oeuvres img {
+  height: 450px;
 }
 
-#oeuvres article {
+.article {
+  height: 450px !important;
   padding: 0 !important;
-
 }
 
 .title{
   font-size: 20px;
-
-
 }
 
 .encart {
   padding: 35px 35px 130px 35px;
   left: 15%;
-  bottom:0%;
-  width: 240px;
+  bottom:5%;
+  width: auto;
+  height: 220px;
+}
+/*********************bottom gallerie***************************/
+#border{
+  width: 40%;
+  padding-top: 20px ;
+  padding-bottom: 20px;
 }
 
 
