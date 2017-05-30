@@ -1,0 +1,1612 @@
+@@font-face {
+  src: url("../font/Lovelo_Black_1_.ttf");
+  font-family: "loveloblack"
+}
+
+
+
+
+
+
+
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*FONTS*/
+@font-face {
+  font-family: "lovelo";
+  src: url("../font/lovelo.otf");
+}
+@font-face {
+  font-family: "novecentobook";
+  src: url("../font/novecentobook.ttf");
+}
+@font-face {
+  font-family: "biko";
+  src: url("../font/biko.otf");
+}
+/*==================*/
+/*HEADER PART*/
+/*==================*/
+.entete
+ {
+    background-color: rgb(0,0,0);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+ .no-mobile
+ {
+    display:none;
+ }
+
+.nav-mobile-right
+ {
+    display:flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-self: center;
+    width: 40%;
+    margin-right: 10px;
+  }
+ .entete a
+ {
+
+    text-decoration: none;
+    color: white;
+ }
+
+.info i, .entete a
+{
+    color: white;
+}
+.info, .button-burger
+{
+    margin-left: 8px;
+}
+.logo-palais
+{
+
+    align-self: center;
+    height:85%;
+    width: 10%;
+    margin-left: 20px;
+    background-image: url("../img/logo-lille.svg");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.logo-palais   img
+{
+
+   width: 100%;
+   height: 100%;
+}
+            /*--------------style for dropdown menu-----------*/
+
+.button-burger
+{
+    position: relative;
+    display: inline-block;
+}
+
+
+.menu-cache
+{
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: 300px;
+    overflow: auto;
+    right:  0;
+    z-index:100;
+    top: 50px;
+    padding: 80px 50px 50px;
+}
+.menu-cache  a  .icon
+{
+     font-size: 13px;
+     color: white;
+}
+
+.menu-cache a
+{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.show
+{
+    display:block;
+}
+
+/*start of section visite*/
+.parcours
+{
+  position: relative;
+}
+
+.white
+{
+  position: absolute;
+  background-color: white;
+  z-index: 5;
+  top:0;
+  margin: auto;
+  margin-left: 12%;
+
+}
+
+.white span
+{
+
+}
+
+.titre
+{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+
+
+/*end of section visite*/
+
+
+
+/*==================*/
+/*SECTION PRESENTATION*/
+/*==================*/
+#presentation
+
+{
+  background-image: url("../img/Palais-des-Beaux-Arts-de-Lille.jpg");
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#presentation .collections, #presentation .visiter, #presentation .titre-blanc
+{
+  width: 70%;
+  align-self: center;
+  text-decoration: none;
+
+}
+
+.titre-blanc .titre, .titre-blanc .titre img
+{
+  width: 100%;
+
+}
+
+
+#presentation .les-dessins, .les-2-dessins, .les-3-dessins
+{
+  align-self: center;
+  height: 25px;
+}
+
+#presentation .les-dessins
+{
+  width: 100%;
+  border-top: 8px solid white;
+  border-right: 8px solid white;
+}
+.les-2-dessins
+{
+  width:100%;
+  border-bottom:8px solid white;
+  border-left: 8px solid white;
+}
+#presentation .les-dessins, .les-2-dessins
+{
+  margin-top: 2em;
+}
+
+.les-3-dessins
+{
+  width:100%;
+  height: 20px;
+  align-self: center;
+  /*border-bottom:8px solid white;*/
+  border-right:  8px solid white;
+  border-right:  8px solid white;
+}
+
+
+#presentation .collection
+{
+   text-align: center;
+   color:white;
+
+}
+#presentation .collection span
+{
+   color: white;
+   font-size: 25px;
+}
+#presentation .collection span:hover
+{
+  color:rgb(184,72,76);
+}
+#presentation .collection h2
+{
+  font-size: 25px;
+  font-weight: bold;
+}
+#presentation .collection p
+{
+  font-size: 10px;
+  font-weight: bold;
+}
+
+    /*------End of section presentation-------*/
+
+
+
+
+/*==================*/
+/*SECTION EVENEMENT*/
+/*==================*/
+#evenement .carousel-inner .carousel-item
+{
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#evenement .carousel-inner .carousel-item:nth-child(1)
+{
+  background-image: url(../img/vieilhomme.jpg);
+}
+
+#evenement .carousel-inner .carousel-item:nth-child(2)
+{
+  background-image: url(../img/relieflille.jpg);
+}
+
+#evenement .carousel-inner .carousel-item:nth-child(3)
+{
+  background-image: url(../img/rouge.jpg);
+}
+
+#evenement .carousel-inner .carousel-item:nth-child(4)
+{
+  background-image: url(../img/solgris.jpg);
+}
+
+#evenement .carousel-inner .carousel-item:nth-child(5)
+{
+  background-image: url(../img/selfie.jpg);
+}
+
+/*Carousel Caption Contents*/
+#evenement .carousel-inner .carousel-item .carousel-caption
+{
+  margin-bottom: 10px;
+}
+#evenement .carousel-inner .carousel-item .carousel-caption a
+{
+  color: #FFF;an+b
+}
+
+#evenement .carousel-inner .carousel-item .carousel-caption p:nth-child(1)
+{
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 3em;
+}
+
+#evenement .carousel-inner .carousel-item .carousel-caption i
+{
+  color: #FFF;
+}
+
+#evenement .carousel-inner .carousel-item .carousel-caption h2
+{
+  font-family: "lovelo";
+  font-size: 23px;
+}
+
+#evenement .carousel-inner .carousel-item .carousel-caption .prez
+{
+  font-family: "novecentobook";
+  font-size: 23px;
+}
+
+#evenement .carousel-inner .carousel-item .carousel-caption .date
+{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+#evenement .carousel-inner .carousel-item .carousel-caption .lockbartop
+{
+height: 14px;
+width: 100%;
+border: 8px solid #FFF;
+border-bottom: none;
+}
+
+#evenement .carousel-inner .carousel-item .carousel-caption .lockbarbot
+{
+height: 14px;
+width: 100%;
+border: 8px solid #FFF;
+border-top: none;
+}
+
+#evenement #prevI, #evenement #nextI
+{
+  color: #FFF;
+}
+
+#evenement #carouselIndicators ol li
+{
+  height: 12px;
+  max-width: 12px;
+  border: 2px solid white;
+}
+
+/*==================*/
+/*END OF SECTION EVENEMENT*/
+/*==================*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*==================*/
+/*SECTION OEUVRE*/
+/*==================*/
+#titregalerie
+{
+  text-align: center;
+  color: #FFF;
+  background-color: #1D1D1E;
+}
+
+#titregalerie h3
+{
+  font-family: "lovelo";
+  font-size: 17px;
+  padding-top: 22px;
+}
+
+#titregalerie p
+{
+  font-family: "biko";
+  font-size: 10px;
+  margin-top: -10px;
+  margin-bottom: -5px;
+}
+
+#titregalerie i
+{
+  font-size: 10px;
+  margin-right: 20px;
+  color: inherit;
+}
+
+#oeuvreclé div
+{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 430px;
+  display: flex;
+}
+
+#oeuvreclé div:nth-child(1)
+{
+  background-image: url(../img/1eOeuvre.jpg);
+}
+
+#oeuvreclé div:nth-child(2)
+{
+  background-image: url(../img/2eOeuvre.jpg);
+}
+
+#oeuvreclé div:nth-child(3)
+{
+  background-image: url(../img/3eOeuvre.jpg);
+}
+
+#oeuvreclé div:nth-child(4)
+{
+  background-image: url(../img/4eOeuvre.jpg);
+}
+
+#oeuvreclé .whiteArt
+{
+  align-content: flex-end;
+  width: 250px;
+  height: 170px;
+  background-color: #FFF;
+  margin: auto;
+  padding: 23.5px 20px 0px 23.5px;
+  color: black;
+}
+
+#oeuvreclé .whiteArt h3
+{
+  font-family: "lovelo";
+  font-size: 20px;
+}
+
+#oeuvreclé .whiteArt p
+{
+  font-family: "biko";
+  font-size: 13px;
+}
+
+/*==================*/
+/*SECTION PINK PART*/
+/*==================*/
+.pink
+{
+  background-color: #D8383F ;
+  color:white;
+  font-size: 10px;
+}
+
+.apps h3
+{
+  font-size: 15px;
+}
+
+/*section white*/
+
+.white h3
+{
+
+ font-size: 15px;
+ font-weight: bold;
+}
+
+
+
+
+/*end of section white*/
+
+
+
+
+
+/*footer rules*/
+
+.footer
+{
+  background-color: #1D1D1E ;
+  color: white;
+}
+
+.footer ul
+{
+  list-style-type: none;
+}
+
+/*end of footer rules*/
+
+              /*=======STYLE SECTION LES INCONTOURNABLES VISITE PAGE========*/
+ #incontournables .titre
+ {
+  margin: auto;
+  height: 100px;
+  padding-top: 40px;
+ }
+ #incontournables .titre h3
+ {
+  font-size: 2rem;
+  text-align: center;
+  /*margin-bottom: 20px;*/
+ }
+
+#incontournables .oeuvres
+{
+
+}
+#incontournables  .tableau
+{
+
+
+    height: 500px;
+
+   background-position: center center;
+   background-size: cover;
+   position: relative;
+   transition: all 0.3s;
+
+}
+#incontournables  .tableau .description
+{
+  width: 44%;
+  height: 140px;
+  padding: 23px 23px 0px 23px;
+  position: absolute;
+  left: 17%;
+  top: 50%;
+  margin-top: -75px;
+  background-color: white;
+
+}
+
+.temps
+{
+    bottom: 23px;
+
+    text-align: right;
+}
+ .description .icone
+ {
+   left:23px;
+   top:23px;
+ }
+ .time
+ {
+  font-size: 2em;
+  font-weight: bold;
+
+ }
+ .description .temps .parcours, .nombre
+ {
+    font-size: 0.75em;
+    vertical-align: baseline;
+    font-style: italic;
+ }
+ .description .icone .icon
+ {
+   font-size: 1em;
+
+ }
+
+ /*======================================================*/
+/*======================================================*/
+/*==================VISITER.HTML==========================*/
+/*======================================================*/
+/*======================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#profil
+{
+  background-color: #1D1D1E;
+}
+
+#profil a article
+{
+  background-color: rgba(255,255,255,0.9);
+  width: 85%;
+  height: 62.5px;
+  margin: auto;
+  margin-bottom: 22.5px;
+  display: flex;
+}
+
+#profil .enseignant article
+{
+  margin-bottom: 0px;
+}
+
+
+#profil a article p
+{
+  color: black;
+  margin: auto;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+#profil a article p span
+{
+  font-family: "lovelo";
+  font-size: 21px;
+  margin-left: 5px;
+}
+
+#profil a:hover
+{
+  color: #D8383F;
+}
+
+#titreParcVisite
+{
+  text-align: center;
+  color: #FFF;
+  background-color: #1D1D1E;
+  padding-top: 6em;
+  padding-bottom: 2em;
+}
+
+#titreParcVisite .flaticon-uniE922
+{
+  font-size: 37px;
+  margin-right: 20px;
+  color: inherit;
+}
+
+#titreParcVisite h3
+{
+  font-family: "lovelo";
+  font-size: 17px;
+  padding-top: 10px
+}
+
+#titreParcVisite .flaticon-uniE93D
+{
+  font-size: 10px;
+  margin-right: 20px;
+  color: inherit;
+}
+
+
+
+
+
+
+/*================================================*/
+/*========MEDIA QUERIES TABLET & DESKTOP========*/
+/*================================================*/
+
+@media (min-width: 670px)
+{
+  #evenement .carousel-inner .carousel-item
+  {
+    height: 800px;
+  }
+
+  /*Carousel Caption Contents*/
+
+  #evenement .carousel-inner .carousel-item .carousel-caption
+  {
+    margin-bottom: 5em;
+  }
+
+  #evenement .carousel-inner .carousel-item .carousel-caption p:nth-child(1)
+  {
+    font-size: 24px;
+  }
+
+  #evenement .carousel-inner .carousel-item .carousel-caption article
+  {
+    padding-top: 2.5em;
+  }
+
+  #evenement .carousel-inner .carousel-item .carousel-caption i
+  {
+    font-size: 50px
+  }
+
+  #evenement .carousel-inner .carousel-item .carousel-caption h2
+  {
+    font-size: 46px;
+    margin-top: 0.3em;
+  }
+
+  #evenement .carousel-inner .carousel-item .carousel-caption .prez
+  {
+    font-size: 46px;
+  }
+
+  #evenement .carousel-inner .carousel-item .carousel-caption .date
+  {
+    font-size: 30px;
+  }
+
+  #evenement .carousel-inner .carousel-item .carousel-caption .lockbartop, #evenement .carousel-inner .carousel-item .carousel-caption .lockbarbot
+  {
+  height: 28px;
+  border-width: 16px;
+  }
+
+  #evenement #carouselIndicators ol li
+  {
+    height: 24px;
+    max-width: 24px;
+  }
+
+    /*-------style header fo tablet---------*/
+
+
+  #presentation
+  {
+    height: 600px;
+  }
+  #presentation .collection span
+  {
+
+   font-size: 35px;
+  }
+
+  #presentation .collection h2
+ {
+   font-size: 35px;
+  }
+#presentation .collection p
+{
+  font-size: 20px;
+
+}
+#presentation .les-dessins
+{
+
+  border-top: 14px solid white;
+  border-right: 14px solid white;
+
+}
+.les-2-dessins
+{
+
+  border-bottom:14px solid white;
+  border-left: 14px solid white;
+}
+.les-3-dessins
+{
+
+  border-right:  14px solid white;
+
+}
+.dersect
+{
+  margin-bottom: 30px;
+}
+
+           /*------style the incontournable for visiter.html(tablet)---*/
+
+#incontournables  .tableau
+{
+   height: 900px;
+
+
+
+}
+#incontournables  .tableau .description
+{
+  width: 65%;
+  height: 260px;
+   top: 50%;
+  padding: 47px 47px 0 47px;
+  margin-top: -130px;
+  left: 17.5%;
+ }
+
+.time
+ {
+  font-size: 3.5em;
+ }
+ .description .temps .parcours, .nombre
+ {
+    font-size:1em;
+
+ }
+ .description .icone .icon
+ {
+   font-size: 2em;
+
+ }
+
+ #profil a article
+{
+  height: 125px;
+}
+
+#profil a article p
+{
+  font-size: 28px;
+}
+
+#profil a article p span
+{
+  font-size: 42px;
+}
+
+
+#titreParcVisite .flaticon-uniE922
+{
+  font-size: 75px;
+}
+
+#titreParcVisite h3
+{
+  font-size: 28px;
+  margin-top: 1em;
+  padding-left: 1em;
+}
+
+#titreParcVisite .flaticon-uniE93D
+{
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+}
+
+/*============================================*/
+/*========MEDIA QUERIES DESKTOP LARGE========*/
+/*============================================*/
+
+@media (min-width: 1280px)
+{
+     /*----------------- START STYLE HEADER FOR LARGE DESKTOP-------*/
+
+  .nav-mobile-right
+  {
+    display:none;
+  }
+  .no-mobile
+  {
+    display: block;
+  }
+  .entete
+ {
+    background-color: rgb(0,0,0) ;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    z-index: 900;
+  }
+  .titre1
+  {
+    width: 30%;
+    height: 100%;
+    margin-left: 10px;
+
+  }
+  .titre1 img
+  {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .menu
+  {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 0px;
+  }
+  .menu li
+  {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .menu li a
+  {
+    text-decoration: none;
+  }
+  .menu li a:hover
+  {
+    color: rgb(216,56,63);
+  }
+  .form
+  {
+    width: 190px;
+    height: 30px;
+    margin-left: 10px;
+
+  }
+  .search
+  {
+    width: 100%;
+    height: 100%;
+   position: relative;
+  }
+  .search .icon
+  {
+    color:white;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+
+  }
+
+  .form input[type=search]
+  {
+    background-color: black;
+    border:4px solid white;
+    width: 100%;
+    height: 100%;
+    color: white;
+  }
+ .search:hover input[type=search]
+ {
+   border-color: rgb(216,56,63);
+ }
+ .search:hover .search .icon, .langueselect ul li a:hover
+ {
+   color: rgb(216,56,63);
+ }
+ .langueselect
+ {
+   margin-top: 20px;
+   height: 50px;
+   margin-left: 20px;
+   position: relative;
+ }
+ .langueselect  ul
+ {
+   list-style-type: none;
+ }
+ .langueselect ul li a
+ {
+   font-size: 20px;
+   color: white;
+  text-decoration: none;
+ }
+
+ .langueselect ul li .fa, .langueselect ul li a
+ {
+    color: white;
+ }
+
+ .langueselect ul li .fa
+ {
+   font-size: 15px;
+   position: absolute;
+   left: 10px;
+   bottom: 20px;
+  }
+  .logo-palais
+  {
+
+    margin-right: 20px;
+    background-position: right;
+  }
+     /*---------STYLE PRESENTATION FOR  LARGE DESKTOP---------*/
+
+  .titre-blanc
+  {
+    display: none;
+  }
+  #presentation
+  {
+
+     display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+     align-items: flex-start;
+
+  }
+
+
+
+  #presentation .visiter, #presentation .collections
+  {
+    margin-top: 0px;
+
+    width: 40%;
+    height: 320px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #presentation .les-dessins, .les-2-dessins
+  {
+    margin-top: 0em;
+  }
+  .dersect
+  {
+    margin-bottom: 0px;
+  }
+  #presentation .visiter #dersert-bas
+  {
+    margin-top: 0px;
+  }
+  #presentation .collections .collection
+  {
+    margin-bottom: 30px;
+  }
+
+
+   .les-dessins
+   {
+    margin-bottom: 4em;
+   }
+   .les-3-dessins
+  {
+
+    border-right:  14px solid white;
+    border-top: 14px solid white;
+  }
+  .visiter .collection
+  {
+     margin-top: 2em;
+  }
+
+
+
+
+    /*------------STYLE VIDEO FOR LARGE DESKTOP------*/
+
+
+  #evenement .carousel-inner .carousel-item
+  {
+    height: 500px;
+  }
+
+  /*Carousel Caption Contents*/
+
+  #evenement .carousel-inner .carousel-item .carousel-caption
+  {
+    margin-bottom: 1em;
+  }
+
+  #evenement .carousel-inner .carousel-item .carousel-caption p:nth-child(1)
+  {
+    font-size: 20px;
+    margin-bottom: 1.5em;
+  }
+
+  #evenement .carousel-inner .carousel-item .carousel-caption article
+  {
+    padding-top: 2.5em;
+  }
+
+  #evenement .carousel-inner .carousel-item .carousel-caption i
+  {
+    font-size: 50px
+  }
+
+  #evenement .carousel-inner .carousel-item .carousel-caption h2
+  {
+    font-size: 46px;
+    margin-top: 0.3em;
+  }
+
+  #evenement .carousel-inner .carousel-item .carousel-caption .prez
+  {
+    font-size: 31px;
+  }
+
+  #evenement .carousel-inner .carousel-item .carousel-caption .date
+  {
+    font-size: 20px;
+  }
+
+  #evenement .carousel-inner .carousel-item .carousel-caption .lockbartop, #evenement .carousel-inner .carousel-item .carousel-caption .lockbarbot
+  {
+  height: 28px;
+  border-width: 16px;
+  }
+
+  #evenement #carouselIndicators ol
+  {
+  margin: 0;
+  padding-left: 860px;
+  }
+
+  #oeuvreclé div
+  {
+    width: 25%;
+    display: inline-flex;
+    margin-right: -3.8px;
+  }
+
+       /*===========STYLE INCONTROUNABLE SECTION FOR LARGE DESKTOP======*/
+
+#incontournables  .tableau
+{
+   height: 900px;
+   width: 15%;
+
+
+
+}
+#incontournables  .tableau .description
+{
+    top: 50%;
+   padding: 47px 47px 0 47px;
+   width: 192px;
+  height: 180px;
+  font-size: 1.4rem;
+  left: 0;
+  margin-top: -75px;
+ }
+
+.time
+ {
+   font-size: 1.5em;
+ }
+ .description .temps .parcours, .nombre
+ {
+    font-size:1em;
+
+ }
+ .description .icone
+ {
+    top:20px;
+    left:-10px;
+ }
+ .description .icone .icon
+ {
+   font-size: 1em;
+
+  }
+
+
+  #profil
+  {
+    display: inline-flex;
+  }
+
+  #profil a
+  {
+    width: 20%;
+    height: 576px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #profil a:nth-child(1)
+  {
+    background-image: url(../img/Individuel.jpg);
+  }
+
+  #profil a:nth-child(2)
+  {
+    background-image: url(../img/Groupe.jpg);
+  }
+
+  #profil a:nth-child(3)
+  {
+    background-image: url(../img/Famille.jpg);
+  }
+
+  #profil a:nth-child(4)
+  {
+    background-image: url(../img/Etudiant.jpg);
+  }
+
+  #profil a:nth-child(5)
+  {
+    background-image: url(../img/Enseignant.jpg);
+  }
+
+  #profil a article
+  {
+    width: 76%;
+    margin-top: 16em;
+  }
+
+  #profil a article p
+  {
+    font-size: 18px;
+    padding-left: 15px;
+  }
+
+  #profil a article p span
+  {
+    font-size: 27px;
+  }
+
+  #titreParcVisite
+  {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1em;
+  }
+
+  #titreParcVisite .flaticon-uniE922
+  {
+    font-size: 50px;
+    margin-left: 10px;
+  }
+
+  #titreParcVisite h3
+  {
+    font-size: 24px;
+    margin-top: 1em;
+    padding-left: 1em;
+  }
+
+  #titreParcVisite .flaticon-uniE93D
+  {
+    position: absolute;
+    margin-top: 4.5em;
+  }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lock {
+  border-color: #d3336c;
+}
+
+
+
+
+.container {
+  display: block;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+background-color: red;
+position: relative;
+}
+
+img {
+  /*margin-left: 45px;*/
+}
+
+
+.droite {
+  background-color: blue;
+  height: 300px;
+  width: 100%;
+  border-color: #d3336c;
+  border-top: solid 1px;
+position: relative;
+
+}
+
+
+.page {
+  background-color: green;
+  height: 300px;
+  width: 100%;
+}
+
+section {
+  text-align: left;
+}
+
+h1 {
+font-size: 2.1em;
+font-family: "loveloblack"
+}
+
+
+.contain--learn-more {
+  background-color: transparent;
+border: solid 3px;
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+cursor: pointer;
+padding: 0 10px;
+-webkit-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+min-height: 30px;
+width: auto;
+color: #1D1D1E;
+border-color: #1D1D1E;
+font-family: "bikobold";
+font-size: 24px;
+width: 130px;
+max-width: 100%;
+border-width: 2px;
+margin-left: auto;
+margin-right: 0;
+text-transform: none;
+position: relative;
+display: inline-block;
+width: auto;
+padding-left: 15px;
+padding-right: 10px;
+font-size: 18px;
+font-size: 1.8rem;
+}
