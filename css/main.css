@@ -94,9 +94,17 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*******************************************************************
+******************GENERAL*****************************************
+*************************************************************************/
    @font-face {
     font-family: "pba";
     src: url(../fonts/pba.ttf);
+   }
+
+   .icon-chef-oeuvre::before {
+       content: "\e905";
+       font-family:"pba";
    }
 /**********************Section video******************************************/
 * {
@@ -107,6 +115,39 @@ iframe {
   position: relative;
 }
 
+.titre {
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#video p {
+  color:white;
+  text-align: center;
+  margin-top: 0;
+}
+
+#video img {
+  position: absolute;
+  height: 200px;
+}
+/********************************************************/
+#adecouvrir {
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0 20px 0;
+}
+
+#adecouvrir h2 {
+  margin-bottom: 0px;
+}
+
+/**************************MOBILE*****************************
+*******************************************************************/
+
+/************************section video******************************/
 #collection {
 display: block;
 position: absolute;
@@ -120,32 +161,69 @@ width: 100%;
   top: 220px;
   width: 100%;
 }
+/*********************Oeuvres à découvrir**************************************/
+#adecouvrir h2 {
+  font-size: 15px;
+  font-weight: bold;
+}
 
-.titre {
-  color: white;
-  text-align: center;
-  margin-bottom: 0;
+#adecouvrir P {
+  font-size: 10px;
+}
+
+#oeuvres img {
+  width: 100%;
+  height: 450px;
+  display: flex;
+}
+
+#oeuvres article {
+  height: 400px;
 
 }
 
-#video p {
-  color:white;
-  text-align: center;
-  margin-top: 0;
+#oeuvres {
+  position: relative;
 }
 
-#video img {
+.encart {
+  min-width: 50%;
+  max-height: 50%;
+  margin: auto;
+  padding: 23px 20px 70px 23px;
+  background-color: white;
+  z-index: 1;
   position: absolute;
-  height: 200px;
+  bottom: 10%;
+  left: 25%;
+  color: black;
+  font-weight: bold;
+}
 
+.title {
+  margin-bottom: 20px;
+}
+
+.encart:hover {
+  color: rgb(216, 56, 63);
+}
+
+
+
+
+
+/*********************Tablette*************************************
+*********************************************************************/
+@media (min-width:768px) {
+
+.title {
+  font-size: 30px;
 
 }
 
-.icon-chef-oeuvre::before {
-    content: "\e905";
-    font-family:"pba";
-}
 
+
+}
 
 
 /**************************Desktop*************************************
@@ -171,9 +249,6 @@ width: 100%;
   top: 120px;
 }
 
-
-
-
 .titre {
   font-size: 50px;
 }
@@ -195,9 +270,44 @@ width: 100%;
   font-size: 30px;
 }
 
+/********************Oeuvres à decouvrir************************************/
+
+#adecouvrir h2 {
+  font-size: 30px;
+
+}
+
+#adecouvrir P {
+  font-size: 20px;
+}
+
+#oeuvres img {
+  width: 326px;
+
+}
+
+#oeuvres article {
+  padding: 0 !important;
+
+}
+
+.title{
+  font-size: 20px;
 
 
 }
+
+.encart {
+  padding: 35px 35px 130px 35px;
+  left: 15%;
+  bottom:0%;
+  width: 240px;
+}
+
+
+
+}
+
 
 
 
