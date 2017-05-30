@@ -1542,7 +1542,6 @@ border-top: none;
 margin-right: auto;
 margin-left: auto;
 text-align: center;
-background-color: red;
 position: relative;
 }
 
@@ -1552,7 +1551,6 @@ img {
 
 
 .droite {
-  background-color: blue;
   height: 300px;
   width: 100%;
   border-color: #d3336c;
