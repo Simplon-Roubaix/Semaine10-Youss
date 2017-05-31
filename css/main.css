@@ -201,6 +201,26 @@ iframe {
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
+
+/**************Techarger nos applications***************************/
+
+#applications {
+  background-color: rgb(216, 56, 63);
+  width: 100%;
+  color: white;
+  text-align: left;
+}
+
+#applications h2 {
+  font-weight: bold;
+}
+
+#applications:hover {
+  background-color: white;
+  color:rgb(216, 56, 63);
+}
+
+
 /**************************MOBILE*****************************
 *******************************************************************/
 
@@ -250,6 +270,8 @@ width: 100%;
   height: 450px;
 }
 
+
+
 /***********************bottom galerie*******************************/
 
 #border {
@@ -266,6 +288,21 @@ width: 100%;
 
 .photoinsta img {
   width: 100%;
+}
+
+/*******************Télecharger nos applications***************************/
+
+#applications h2{
+  font-size: 12px;
+  border: 1px solid white;
+  padding: 10px 20px;
+}
+
+#telecharger {
+  padding: 120px 0 20px 0;
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
 
@@ -310,6 +347,28 @@ width: 100%;
 
 #hidden {
   visibility: hidden;
+}
+
+/******************télecharger nos applications********************/
+
+#applications {
+margin-top: -390px;
+}
+
+#telecharger {
+  padding-top: 300px
+}
+
+#applications h2 {
+  font-size: 25px;
+  border: 3px solid white;
+  padding: 30px 0;
+}
+
+#applications span {
+  font-size: 30px;
+}
+
 }
 
 
@@ -401,7 +460,27 @@ width: 100%;
   flex-wrap: nowrap;
 }
 
+#hidden {
+  visibility: visible;
+}
 
+/************************Télecharger nos applications************************/
+
+
+#applications {
+  margin-top: 0 !important;
+}
+#applications h2 {
+  font-size: 24px;
+  border: none;
+
+}
+
+#telecharger {
+  width: 35%;
+  margin: auto;
+  padding: 30px 0 30px 0;
+}
 }
 
 
