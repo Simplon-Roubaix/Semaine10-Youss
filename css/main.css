@@ -111,30 +111,26 @@ textarea {
      background-color: black;
    }
 /**********************Section video******************************************/
-* {
+/* {
   border: 1px solid black;
-}
-iframe {
-  height: 461px;
-  position: relative;
-}
+}*/
+#video{
+  background-image: url("../img/backgroundpalais.jpg");
+  background-position: center;
+  background-size: cover;
 
+}
 .titre {
   color: white;
   text-align: center;
-  margin-bottom: 0;
 }
 
 #video p {
   color:white;
   text-align: center;
-  margin-top: 0;
 }
 
-#video img {
-  position: absolute;
-  height: 200px;
-}
+
 /*********************Oeuvres à découvrir***********************************/
 #adecouvrir {
   color: white;
@@ -202,7 +198,11 @@ iframe {
   transition-duration: 0.2s;
 }
 
-/**************Techarger nos applications***************************/
+#bottompicture {
+  padding-bottom: 50px;
+}
+
+/**************Telecharger nos applications***************************/
 
 #applications {
   background-color: rgb(216, 56, 63);
@@ -229,24 +229,54 @@ iframe {
 #autre h2:hover {
   color:rgb(216, 56, 63);
 }
+ #lille {
+   margin-top: 0 !important;
+ }
 
+ #culturel {
+   margin-bottom: 0 !important;
+   padding-bottom: 30px;
+ }
 
 /**************************MOBILE*****************************
 *******************************************************************/
 
 /************************section video******************************/
-#collection {
-display: block;
-position: absolute;
-top: 60px;
-width: 100%;
+#video {
+  height: 400px;
+  width: 100%;
 }
 
-#visiter {
-  display: block;
+#collection a{
   position: absolute;
-  top: 220px;
-  width: 100%;
+  left: 100px;
+  top: 100px;
+}
+
+#visiter a {
+  position: absolute;
+  left: 80px;
+  top: 250px;
+}
+
+#video img {
+  width: 70%;
+  height: 180px;
+  margin-left: 17%;
+
+}
+
+.logo-pba-mobile-hp {
+  font-family: "pba";
+  font-size: 30px;
+  color: white;
+  width: 70%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.logo-pba-mobile-hp span {
+  margin-right: 15px;
 }
 /*********************Oeuvres à découvrir**************************************/
 #adecouvrir h2 {
@@ -325,10 +355,11 @@ width: 100%;
   border: 2px solid black;
   padding: 20px 40px;
   text-align: center;
+
 }
  #lille {
    margin-bottom: 30px;
-   margin-top: 30px;
+  padding-top: 40px !important;
  }
 
  #culturel {
@@ -343,6 +374,55 @@ width: 100%;
 /*********************Tablette*************************************
 *********************************************************************/
 @media (min-width:768px) {
+
+/*********************section video*********************************/
+
+.logo-pba-mobile-hp {
+  font-size: 65px;
+  margin-left:20%;
+}
+
+.logo-pba-mobile-hp span {
+  margin-right:17px;
+}
+
+#video {
+  height: 700px;
+
+}
+
+#collection h2 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 50px;
+}
+#visiter h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+#collection a{
+  position: absolute;
+  left: 35%;
+  top: 25%;
+  font-size: 30px;
+
+}
+
+#visiter a {
+  position: absolute;
+  left: 25%;
+  top: 450px;
+  font-size: 30px;
+
+}
+
+#video img {
+  width: 100%%;
+  height: 300px;
+  margin-left: 17%;
+
+}
 /*******************oeuvres a decouvrir*********************************/
 .title {
   font-size: 30px;
@@ -413,23 +493,22 @@ margin-top: -390px;
 *************************************************************************/
 @media (min-width:980px) {
 
-#video {
-  display:inline;
-}
-#collection{
-  display: inline;
-  width: 500px;
-  position: absolute;
-  left: 120px;
-  top: 120px;
+.logo-pba-mobile-hp {
+  visibility: hidden;
 }
 
-#visiter {
-  display: inline;
-  width: 500px;
-  position: absolute;
-  right: 120px;
-  top: 120px;
+#video {
+  display:inline-block;
+  height: 400px;
+
+  }
+#visiter,#collection{
+  position: relative;
+  display: inline-block;
+  width: 48%;
+}
+#visiter a,#collection a{
+  top: 30px;
 }
 
 .titre {
@@ -441,8 +520,11 @@ margin-top: -390px;
 }
 
 #video img {
-  height: 300px;
+  visibility: hidden;
+
 }
+
+
 /********************slider*******************************/
 
 #slider h3 {
