@@ -265,6 +265,7 @@ textarea {
     margin: auto;
     height: 100px;
     padding-top: 40px;
+    ;
 }
 
 #incontournables .titre h3 {
@@ -285,17 +286,19 @@ textarea {
 
 #incontournables .tableau .description {
     width: 44%;
-    height: 140px;
+    height: 240px;
     padding: 23px 23px 0px 23px;
     position: absolute;
     left: 17%;
     top: 50%;
     margin-top: -75px;
-    background-color: white;
+    background-color: #fff;
 }
 
 .temps {
-    bottom: 23px;
+    background-color: red;
+    height: 175px;
+    bottom: 18px;
     text-align: right;
 }
 
@@ -575,8 +578,8 @@ textarea {
     }
     /* ===========STYLE INCONTROUNABLE SECTION FOR LARGE DESKTOP======*/
     #incontournables .tableau {
-        height: 900px;
-        width: 15%;
+        height: 500px;
+        width: 200px;
     }
     #incontournables .tableau .description {
         top: 50%;
@@ -589,10 +592,6 @@ textarea {
     }
     .time {
         font-size: 1.5em;
-    }
-    .description .temps .parcours,
-    .nombre {
-        font-size: 1em;
     }
     .description .icone {
         top: 20px;
