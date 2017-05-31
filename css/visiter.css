@@ -184,6 +184,28 @@ textarea {
 }
 
 
+/*-------------- -FOOTER  ------------------------*/
+
+footer {
+    background-color: #000;
+    color: #fff;
+    margin-top: 25px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li {
+    font-size: 12px;
+}
+
+.footer i {
+    color: #fff;
+}
+
+
 /*--------------style for dropdown menu-----------*/
 
 .button-burger {
@@ -261,6 +283,11 @@ textarea {
 
 /*=======STYLE SECTION LES INCONTOURNABLES VISITE PAGE========*/
 
+.Picture {
+    font-size: 12px;
+    text-align: center;
+}
+
 #incontournables .titre {
     margin: auto;
     height: 100px;
@@ -274,8 +301,6 @@ textarea {
     /*margin-bottom: 20px;*/
 }
 
-#incontournables .oeuvres {}
-
 #incontournables .tableau {
     height: 500px;
     background-position: center center;
@@ -286,7 +311,7 @@ textarea {
 
 #incontournables .tableau .description {
     width: 44%;
-    height: 240px;
+    height: 140px;
     padding: 23px 23px 0px 23px;
     position: absolute;
     left: 17%;
@@ -296,9 +321,9 @@ textarea {
 }
 
 .temps {
-    background-color: red;
-    height: 175px;
-    bottom: 18px;
+    font-size: 14px;
+    height: 75px;
+    bottom: 20px;
     text-align: right;
 }
 
@@ -396,7 +421,7 @@ textarea {
 @media (min-width: 670px) {
     /*-------style header fo tablet---------*/
     #presentation {
-        height: 600px;
+        height: 400px;
     }
     #presentation .collection span {
         font-size: 35px;
@@ -423,7 +448,7 @@ textarea {
     }
     /*------style the incontournable for visiter.html(tablet)---*/
     #incontournables .tableau {
-        height: 900px;
+        height: 400px;
     }
     #incontournables .tableau .description {
         width: 65%;
