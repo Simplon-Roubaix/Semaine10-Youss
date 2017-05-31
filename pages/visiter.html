@@ -7,13 +7,15 @@
     <title>Visiter - Palais des Beaux Art de Lille</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <!--  FAVICON  -->
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- LINK CSS -->
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../css/pba.css">
     <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/visiter.css">
+    <!--LINK JS -->
     <script src="https://use.fontawesome.com/1d29cca193.js"></script>
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
@@ -27,15 +29,15 @@
     <header class="entete w-100">
 
         <figure class="no-mobile titre1">
-            <img src="../img/titre.png" alt="titre">
+            <a href="../index.html"><img src="../img/titre.png" alt="titre"></a>
         </figure>
 
 
         <!--  nav non mobile -->
         <ul class="no-mobile menu">
-            <li><a href="index.html">COLLECTIONS</a></li>
+            <li><a href="../index.html">COLLECTIONS</a></li>
             <li><a href="visiter.html">VISITER</a></li>
-            <li><a href="#">AGENDA</a></li>
+            <li><a href="agenda.html">AGENDA</a></li>
             <li><a href="#">INFOS</a></li>
         </ul>
 
@@ -121,7 +123,7 @@
     <!--  end second section  -->
 
     <!-- third section  -->
-    <section class="container-fluid mx-0 px-0">
+    <section class="container-fluid mx-0 px-0 Picture">
         <div class="row px-0 mx-0">
 
 
@@ -253,56 +255,59 @@
     <!-- START OF FOOTER -->
 
     <footer class="container-fluid">
-        <div class="row">
-            <section class="list col-lg-2">
-                <h3>INFO PRATIQUE</h3>
-                <ul>
-                    <li>OUVERT : LUN. 14H-18H</li>
-                    <li>MERC. > DIM.10H - 18H. FERMé LE MARDI.</li>
-                    <li>TARIF PLEIN 7€/TARIF REDUIT 4€</li>
-                    <li>PLACE DE LA REPUBLIQUE 59000 LILLE</li>
-                </ul>
-            </section>
+        <div class="container footer">
 
-            <section class="list col-lg-2">
-                <h3>MUSEE PRIVE</h3>
-                <ul>
-                    <li>DEVENIR MECENE</li>
-                    <li>SOUTENIR UN PROJET</li>
-                    <li>ORGANISER UN EVENEMENT</li>
-                    <li>ADHERER</li>
-                </ul>
-            </section>
+            <div class="row">
+                <section class="list col-lg-3">
+                    <h3>INFO PRATIQUE</h3>
+                    <ul>
+                        <li>OUVERT : LUN. 14H-18H</li>
+                        <li>MERC. > DIM.10H - 18H. FERMé LE MARDI.</li>
+                        <li>TARIF PLEIN 7€/TARIF REDUIT 4€</li>
+                        <li>PLACE DE LA REPUBLIQUE 59000 LILLE</li>
+                    </ul>
+                </section>
 
-            <section class="list col-lg-2">
-                <h3>PRESSE</h3>
-                <ul>
-                    <li>DOSSIER DE PRESSE</li>
-                    <li>PHOTOTHEQUE</li>
-                </ul>
-            </section>
+                <section class="list col-lg-3">
+                    <h3>MUSEE PRIVE</h3>
+                    <ul>
+                        <li>DEVENIR MECENE</li>
+                        <li>SOUTENIR UN PROJET</li>
+                        <li>ORGANISER UN EVENEMENT</li>
+                        <li>ADHERER</li>
+                    </ul>
+                </section>
 
-            <section class="list col-lg-2">
-                <h3>SUIVEZ-NOUS</h3>
-                <h4>SUR LESRESEAUX SOCIAUX</h4>
-                <ul>
-                    <li>
-                        <a href="">TWITTER</a>
-                    </li>
-                    <li>
-                        <a href=""></a>
-                    </li>
-                    <li>
-                        <a href=""></a>
-                    </li>
-                    <li>
-                        <a href=""></a>
-                    </li>
-                    <li>
-                        <a href=""></a>
-                    </li>
-                </ul>
-            </section>
+                <section class="list col-lg-3">
+                    <h3>PRESSE</h3>
+                    <ul>
+                        <li>DOSSIER DE PRESSE</li>
+                        <li>PHOTOTHEQUE</li>
+                    </ul>
+                </section>
+
+                <section class="list col-lg-3">
+                    <h3>SUIVEZ-NOUS</h3>
+
+                    <div class="container">
+                        <ul class="row">
+                            <li class="offset-1">SUR NOS RESEAUX SOCIAUX</li>
+                            <li class="offset-4">
+                                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="offset-1">
+                                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="offset-1">
+                                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="offset-1">
+                                <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
         </div>
     </footer>
     <!-- END OF FOOTER -->
