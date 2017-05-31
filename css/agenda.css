@@ -1514,15 +1514,16 @@ border-top: none;
 
 
 
-
-
-
-
-
-
-
-
-
+.barre {
+  width: 37px;
+height: 37px;
+border-top: solid 16px;
+border-right: solid 16px;
+position: absolute;
+top: 0;
+right: 0;
+border-color: #935297;
+}
 
 
 
@@ -1531,7 +1532,14 @@ border-top: none;
 
 
 .lock {
-  border-color: #d3336c;
+  width: 37px;
+height: 37px;
+border-top: solid 16px;
+border-right: solid 16px;
+position: absolute;
+top: 0;
+right: 0;
+border-color: #d3336c
 }
 
 
