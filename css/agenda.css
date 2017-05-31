@@ -1525,8 +1525,13 @@ section h1, section h2, section span, section p {
 }
 
 @media (min-width: 768px){
+
+
+ .description {
+   display: block;
  }
 
+}
 
 @media (min-width: 992px) {
 
