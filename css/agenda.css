@@ -154,12 +154,6 @@ right: 0;
 border-color: #935297;
 }
 
-
-
-
-
-
-
 .lock {
   width: 37px;
 height: 37px;
@@ -174,99 +168,105 @@ border-color: #d3336c
 
 
 
-.container {
-  display: block;
-margin-right: auto;
-margin-left: auto;
-text-align: center;
-position: relative;
-}
-
-img {
-  /*margin-left: 45px;*/
-}
-
-
-.droite {
-  height: 300px;
-  width: 100%;
-  border-color: #d3336c;
-  border-top: solid 1px;
-position: relative;
-
-}
-
-
-.collection-select {
-  width: 240px;
-text-transform: none;
-font-family: "loveloblack";
-font-size: 16px;
-font-size: 1.6rem;
-padding: 7px 10px 7px 15px;
-text-align: left;
-border: 4px solid #1D1D1E;
--webkit-transition: all 0.3s ease 0s;
-transition: all 0.3s ease 0s;
-}
-
-button {
+#article .section{
   padding: 0;
-border-width: 0;
-background-color: transparent;
-}
-
-.page {
-  background-color: white;
   height: 300px;
   width: 100%;
+  background-image: url("../img/man.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  z-index: 8 !important;
 }
-
-section {
-  text-align: left;
+#article .photo{
+  background-image: url("../img/Open-Museum-Alain-Passard_pba_event_vignette.jpg") !important;
 }
-
-h1 {
-font-size: 2.1em;
-font-family: "loveloblack"
+#article .photo1{
+  background-image: url("../img/VISITE-PRESTO_pba_event_vignette.jpg") !important;
 }
-
-
-.contain--learn-more {
-  background-color: transparent;
-border: solid 3px;
-text-align: center;
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 10px;
-cursor: pointer;
-padding: 0 10px;
--webkit-transition: all 0.3s ease 0s;
-transition: all 0.3s ease 0s;
-min-height: 30px;
-width: auto;
-color: #1D1D1E;
-border-color: #1D1D1E;
-font-family: "bikobold";
-font-size: 24px;
-width: 130px;
-max-width: 100%;
-border-width: 2px;
-margin-left: auto;
-margin-right: 0;
-text-transform: none;
-position: relative;
-display: inline-block;
-width: auto;
-padding-left: 15px;
-padding-right: 10px;
-font-size: 18px;
-font-size: 1.8rem;
+#article .photo2{
+  background-image: url("../img/DIMANCHE-GRATUIT_pba_event_vignette.jpg") !important;
+}
+#article .photo3{
+  background-image: url("../img/LECON-D-ART_pba_event_vignette.jpg") !important;
+}
+#article .photo4{
+  background-image: url("../img/RENCONTRE-AVEC-ALEX-CROQUET_pba_event_vignette.jpg") !important;
+}
+#article .photo5{
+  background-image: url("../img/UN-MIDI-UN-REGARD_pba_event_vignette.jpg") !important;
+}
+#article .photo6{
+  background-image: url("../img/Visite-olfactive_pba_event_vignette.jpg") !important;
+}
+#article .photo7{
+  background-image: url("../img/Open-Museum-Alain-Passard_pba_event_vignette.jpg") !important;
+}
+#article .photo img{
+  z-index: -1 !important;
+}
+.article h2 {
+  font-family: "lovelo";
+  font-size: 15px;
+  font-weight: bold;
+}
+.article span {
+  color: #D3336C;
+  font-weight: 500;
+}
+.article h3 {
+  font-size: 17px;
+}
+.article h4 {
+  font-weight: bold;
+  font-size: 13px;
+  word-spacing: 0;
 }
 
 @media (min-width: 1280px) {
     /*----------------- START STYLE HEADER FOR LARGE DESKTOP-------*/
+
+
+
+    #article .section{
+     margin-left: 88px;
+     width: 150px;
+     height: 260px;
+    }
+    .article h2 {
+      font-size: 33px;
+    }
+    .article h3 {
+      font-size: 30px;
+    }
+    .article h4 {
+      font-size: 15px;
+    }
+    .article p {
+      font-family: arial;
+    }
+    .article span {
+      font-weight: normal;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .nav-mobile-right {
         display: none;
     }

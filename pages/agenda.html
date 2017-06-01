@@ -1,30 +1,295 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/agenda.css">
-    <title>Agenda-Palais des Beaux Arts de Lille</title>
-  </head>
-  <body>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title></title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<!-- Place favicon.ico in the root directory -->
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../css/pba.css">
+<link rel="stylesheet" href="../css/agenda.css">
+<link rel="stylesheet" href="../css/normalize.css">
+<script src="https://use.fontawesome.com/1d29cca193.js"></script>
+<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+
+<!-- START OF HEADER   -->
+<header class="entete w-100">
+
+  <figure class="no-mobile titre1">
+          <img src="../img/titre.png" alt="titre">
+  </figure>
 
 
-    <div class="container">
+  <!--  nav non mobile -->
+  <ul class="no-mobile menu">
+    <li><a href="../index.html">COLLECTIONS</a></li>
+    <li><a href="visiter.html">VISITER</a></li>
+    <li><a href="agenda.html">AGENDA</a></li>
+    <li><a href="#">INFOS</a></li>
+  </ul>
+
+  <form class="no-mobile form">
+    <div class="search">
+      <input type="search" name="" value="">
+       <span class="icon flaticon-uniE92A"></span>
+    </div>
+  </form>
+  <div class="langueselect no-mobile">
+    <ul>
+      <li>
+        <i class="fa fa-angle-down" style="font-size:24px"></i><a href="#">français
+
+        </a>
+      </li>
+     </ul>
+  </div>
+  <!--  nav of mobile and tablette  -->
+  <div class="nav-mobile-right">
+    <div class="search">
+      <a href="#"> <i class="fa fa-search fa-2x" aria-hidden="true"></i></a>
+
+    </div>
+    <div class="info">
+      <a href="#"><i class="fa fa-info-circle fa-2x " aria-hidden="true "></i></a>
+
+
+
+
 
     </div>
 
-    <div class="col-xs-3">
-    <figure>
 
-        <img src="img/Open-Museum-Alain-Passard_pba_event_vignette.resized.jpg" alt="">
-      </figure>
-      </div>
+    <div class="button-burger">
+        <button onclick="myFunction()"  class="dropbtn"> <i class="fa fa-bars fa-x " aria-hidden="true "></i></button>
+        <div id="monmenu" class="menu-cache">
+               <a href="../index.html"><span class="icon flaticon-uniE905"></span> Collections</a>
+               <a href="visiter.html"><span class="icon flaticon-uniE922"></span> Visiter</a>
+               <a href="agenda.html"><span class="icon flaticon-uniE92B"></span> Agenda</a>
+               <a href="#"><span class="icon flaticon-uniE92B"></span>contactez-nous</a>
 
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+          </div>
+
+     </div>
+    </div>
+
+    <aside class="logo-palais">
+
+    </aside>
+
+
+
+</header>
+
+
+<div class="container">
+  <div class="row">
+  </div>
+</div>
+<div class="container-fluid mt-5">
+  <div class="row" id="article">
+    <section class="col-12 col-xl-2 photo section">
+    </section>
+    <section class="col-12 col-xl-6 article ml-4 mt-4">
+      <div class="barre hidden-md">
+
+     </div>
+      <div class="lock hidden-md">
+
+   </div>
+      <h2> Jusqu'au 16 juillet 2017 - <span>Évènement</span></h2>
+      <h3>OPEN MUSEUM ALAIN PASSARD</h3>
+      <h4 class="mt-3">Tarifs habituels d'entrée au musée: 7 Є / 4 Є</h4>
+      <p class="hidden-lg-down">Après le groupe Air, Donald et le collectif InterDuck, et Zep, carte blanche est donnée cette année au chef trois étoiles Alain Passard. Un Open Museum placé sous le signe du plaisir des sens et du dialogue art ancien - art contemporain.</p>
+      <p class="hidden-lg-down"><strong>À voir à tous les niveaux du musée, au sein des collections permanentes!</strong></p>
+    </section>
+  </div>
+</div>
+<div class="container-fluid mt-5">
+  <div class="row" id="article">
+    <section class="col-12 col-xl-2 photo1 section">
+    </section>
+    <section class="col-12 col-xl-6 article ml-4 mt-4">
+      <div class="barre hidden-md">
+
+   </div>
+      <h2>  Le 31 mai 2017 - <span>Visite</span></h2>
+      <h3>VISITE PRESTO</h3>
+      <h4 class="mt-3">À 12 h 30. 1 Є + droit d’entrée. Durée 30 mn. </h4>
+      <p class="hidden-lg-down">Un tête à tête avec une œuvre différente chaque semaine.</p>
+      <p class="hidden-lg-down"><strong>Emile Bernard, Après le bain, les nymphes.</strong></p>
+    </section>
+  </div>
+</div>
+<div class="container-fluid mt-5">
+  <div class="row" id="article">
+    <section class="col-12 col-xl-2 photo2 section">
+    </section>
+    <section class="col-12 col-xl-6 article ml-4 mt-4">
+      <div class="barre hidden-md">
+
+   </div>
+      <h2>  Le 4 juin 2017 - <span>Évènement</span></h2>
+      <h3>DIMANCHE GRATUIT</h3>
+      <h4 class="mt-3">Entrée gratuite pour tous</h4>
+      <p class="hidden-lg-down"><strong>Le 1er dimanche du mois, l'entrée au musée est gratuite pour tous! L'occasion de découvrir les chefs-d'oeuvre qui font la renommée du Palais des Beaux-Arts, l'Open Museum Alain Passard, ou simplement de passer voir le nouvel atrium !</strong></p>
+    </section>
+  </div>
+</div>
+<div class="container-fluid mt-5">
+  <div class="row" id="article">
+    <section class="col-12 col-xl-2 photo3 section">
+    </section>
+    <section class="col-12 col-xl-6 article ml-4 mt-4">
+      <div class="barre hidden-md">
+
+   </div>
+      <h2>  Le 1 juin 2017 - <span>Visite</span></h2>
+      <h3>LEÇON D’ART</h3>
+      <h4 class="mt-3">À 14 h 30. 4 Є + droit d’entrée. Durée : 1h.</h4>
+      <p class="hidden-lg-down">S’initier à l’histoire de l’art, apprendre à repérer et à comprendre les styles et les principaux courants. </p>
+      <p class="hidden-lg-down"><strong>Les artistes lillois.</strong></p>
+    </section>
+  </div>
+</div>
+<div class="container-fluid mt-5">
+  <div class="row" id="article">
+    <section class="col-12 col-xl-2 photo4 section">
+    </section>
+    <section class="col-12 col-xl-6 article ml-4 mt-4">
+      <div class="barre hidden-md">
+
+   </div>
+      <h2> Le 7 juin 2017 - <span>Évènement</span></h2>
+      <h3>RENCONTRE AVEC ALEX CROQUET</h3>
+      <h4 class="mt-3">À 18 h 30. Tarifs 5,50 Є / 3 Є / 1 Є. Durée 1 h 30 env. </h4>
+      <p class="hidden-lg-down">Venez partager l'univers et la passion du célèbre boulanger lillois Alex Croquet. Considérant le pain comme une réelle matière vivante, ce magicien du levain vous propose un moment d’échange autour d’une dégustation.</p>
+      <p class="hidden-lg-down"><strong>Inclus: visite libre de l'Open Museum Alain Passard jusqu’à 18 h 15.</strong></p>
+    </section>
+  </div>
+</div>
+<div class="container-fluid mt-5">
+  <div class="row" id="article">
+    <section class="col-12 col-xl-2 photo5 section">
+    </section>
+    <section class="col-12 col-xl-6 article ml-4 mt-4">
+      <div class="barre hidden-md">
+
+   </div>
+      <h2> Le 9 juin 2017 - <span>Visite</span></h2>
+      <h3>UN MIDI, UN REGARD</h3>
+      <h4 class="mt-3">À 12 h 30. 4 Є + droit d’entrée. Durée 1 h env.</h4>
+      <p class="hidden-lg-down">Un vendredi par mois, une personnalité inattendue nous livre son regard personnel sur les collections du musée.</p>
+      <p class="hidden-lg-down"><strong>Ce mois-ci: Rémi De Vos, auteur et dramaturge, met en scène ses œuvres coup de cœur.</strong></p>
+    </section>
+  </div>
+</div>
+<div class="container-fluid mt-5">
+  <div class="row" id="article">
+    <section class="col-12 col-xl-2 photo6 section">
+    </section>
+    <section class="col-12 col-xl-6 article ml-4 mt-4">
+      <div class="barre hidden-md">
+
+   </div>
+      <h2> Le 18 juin 2017 - <span>Visite</span></h2>
+      <h3>VISITE OLFACTIVE</h3>
+      <h4 class="mt-3">À 11 h. 4 Є + droit d’entrée. Durée 1 h 30 env.</h4>
+      <p class="hidden-lg-down">Une visite assurée en duo par un guide du musée et Caroline Caron, parfumeuse. Un voyage pour les sens !</p>
+      <p class="hidden-lg-down"><strong>Nombre de places limité. Sur réservation : jbarthelemy@mairie-lille.fr</strong></p>
+    </section>
+  </div>
+</div>
+<div class="container-fluid mt-5">
+  <div class="row" id="article">
+    <section class="col-12 col-xl-2 photo7 section">
+    </section>
+    <section class="col-12 col-xl-6 article ml-4 mt-4">
+      <div class="barre hidden-md">
+
+   </div>
+      <h2>  Le 18 juin 2017 - <span>Visite</span></h2>
+      <h3>VISITE LSF ET LECTURE LABIALE OPEN MUSEUM ALAIN PASSARD</h3>
+      <h4 class="mt-3">À 15 h. 4 Є. Durée 1 h.</h4>
+      <p class="hidden-lg-down"><strong>Nombre de places limité. Sur réservation : jbarthelemy@mairie-lille.fr<strong</p>
+      </section>
+    </div>
+  </div>
+
+
+
+<footer class="container-fluid">
+        <div class="container footer">
+
+           <div class="row">
+                <section class="list col-lg-3">
+                    <h3>INFO PRATIQUE</h3>
+                    <ul>
+                        <li>OUVERT : LUN. 14H-18H</li>
+                        <li>MERC. > DIM.10H - 18H. FERMé LE MARDI.</li>
+                        <li>TARIF PLEIN 7€/TARIF REDUIT 4€</li>
+                        <li>PLACE DE LA REPUBLIQUE 59000 LILLE</li>
+                    </ul>
+                </section>
+
+               <section class="list col-lg-3">
+                    <h3>MUSEE PRIVE</h3>
+                    <ul>
+                        <li>DEVENIR MECENE</li>
+                        <li>SOUTENIR UN PROJET</li>
+                        <li>ORGANISER UN EVENEMENT</li>
+                        <li>ADHERER</li>
+                    </ul>
+                </section>
+
+               <section class="list col-lg-3">
+                    <h3>PRESSE</h3>
+                    <ul>
+                        <li>DOSSIER DE PRESSE</li>
+                        <li>PHOTOTHEQUE</li>
+                    </ul>
+                </section>
+
+               <section class="list col-lg-3">
+                    <h3>SUIVEZ-NOUS</h3>
+
+                   <div class="container">
+                        <ul class="row">
+                            <li class="offset-1">SUR NOS RESEAUX SOCIAUX</li>
+                            <li class="offset-4">
+                                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="offset-1">
+                                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="offset-1">
+                                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="offset-1">
+                                <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   </body>
 </html>
