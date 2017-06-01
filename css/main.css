@@ -94,8 +94,535 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*******************************************************************
+******************GENERAL*****************************************
+*************************************************************************/
+   @font-face {
+    font-family: "pba";
+    src: url(../fonts/pba.ttf);
+   }
+
+   .icon-chef-oeuvre::before {
+       content: "\e905";
+       font-family:"pba";
+   }
+
+   body {
+     background-color: black;
+   }
 
 
+/**********************Section video******************************************/
+/* {
+  border: 1px solid black;
+}*/
+#video{
+  background-image: url("../img/backgroundpalais.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+.titre {
+  color: white;
+  text-align: center;
+}
+
+#video p {
+  color:white;
+  text-align: center;
+}
+
+
+/*********************Oeuvres à découvrir***********************************/
+#adecouvrir {
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0 20px 0;
+}
+
+#adecouvrir h2 {
+  margin-bottom: 0px;
+}
+
+#oeuvres img {
+  width: 100%;
+  height: 450px;
+  display: flex;
+}
+
+
+
+#oeuvres {
+  position: relative;
+}
+.encart:hover {
+  color: rgb(216, 56, 63);
+}
+
+/***********************bottom galerie oeuvres**************************/
+
+#bottompicture {
+  color: white;
+  text-align: center;
+  width: 100%;
+
+}
+ #border {
+   border: 3px solid white;
+   max-width: 80%;}
+
+#border a {
+  text-decoration: none;
+}
+
+#border:hover {
+  border-color: rgb(216, 56, 63);
+}
+
+#border a:hover {
+  color:rgb(216, 56, 63);
+}
+
+ #afficher {
+   margin-top: 60px;
+   margin-bottom: 80px;
+ }
+
+ /********************************gallerie instagram**********************/
+
+.photoinsta:hover {
+  -webkit-filter: opacity(0.5) drop-shadow(0 0 0 red);
+  filter: opacity(0.5) drop-shadow(0 0 0 red);
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+#bottompicture {
+  padding-bottom: 50px;
+}
+
+/**************Telecharger nos applications***************************/
+
+#applications {
+  background-color: rgb(216, 56, 63);
+  width: 100%;
+  color: white;
+  text-align: left;
+}
+
+#applications h2 {
+  font-weight: bold;
+}
+
+#applications:hover {
+  background-color: white;
+  color:rgb(216, 56, 63);
+}
+
+/*********************before footer****************************/
+
+#autre {
+  background-color: white;
+}
+
+#autre h2:hover {
+  color:rgb(216, 56, 63);
+}
+ #lille {
+   margin-top: 0 !important;
+ }
+
+ #culturel {
+   margin-bottom: 0 !important;
+   padding-bottom: 30px;
+ }
+
+/**************************MOBILE*****************************
+*******************************************************************/
+
+/************************section video******************************/
+#video {
+  height: 400px;
+  width: 100%;
+}
+
+#collection a{
+  position: absolute;
+  left: 100px;
+  top: 230px;
+}
+
+#visiter a {
+  position: absolute;
+  left: 80px;
+  top: 350px;
+}
+
+#video img {
+  width: 70%;
+  height: 230px;
+  margin-left: 17%;
+
+}
+
+.logo-pba-mobile-hp {
+  font-family: "pba";
+  font-size: 30px;
+  color: white;
+  width: 70%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.logo-pba-mobile-hp span {
+  margin-right: 15px;
+}
+/*********************Oeuvres à découvrir**************************************/
+#adecouvrir h2 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#adecouvrir P {
+  font-size: 10px;
+}
+
+.encart {
+  min-width: 50%;
+  max-height: 50%;
+  margin: auto;
+  padding: 23px 20px 70px 23px;
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
+  color: black;
+  font-weight: bold;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.article{
+  height: 450px;
+}
+
+
+
+/***********************bottom galerie*******************************/
+
+#border {
+  margin-left: 10%;
+  padding: 10px 20px 10px 20px;
+  font-size: 12px;
+}
+
+#afficher a{
+  color: white;
+}
+
+/***********************Gallerie instagram*****************************/
+
+.photoinsta img {
+  width: 100%;
+}
+
+/*******************Télecharger nos applications***************************/
+
+#applications h2{
+  font-size: 12px;
+  border: 1px solid white;
+  padding: 10px 20px;
+}
+
+#telecharger {
+  padding: 120px 0 20px 0;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+/************************before footer**************************************/
+
+#autre h2 {
+  font-size: 10px;
+  width: 85%;
+  margin: auto;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 20px 40px;
+  text-align: center;
+
+}
+ #lille {
+   margin-bottom: 30px;
+  padding-top: 40px !important;
+ }
+
+ #culturel {
+   margin-bottom: 30px;
+ }
+
+
+
+
+
+
+/*********************Tablette*************************************
+*********************************************************************/
+@media (min-width:768px) {
+
+/*********************section video*********************************/
+
+.logo-pba-mobile-hp {
+  font-size: 65px;
+  margin-left:20%;
+}
+
+.logo-pba-mobile-hp span {
+  margin-right:17px;
+}
+
+#video {
+  height: 700px;
+
+}
+
+#collection h2 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 50px;
+}
+#visiter h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+#collection a{
+  position: absolute;
+  left: 35%;
+  top: 33%;
+  font-size: 30px;
+
+}
+
+#visiter a {
+  position: absolute;
+  left: 25%;
+  top: 610px;
+  font-size: 30px;
+
+}
+
+#video img {
+  width: 100%%;
+  height: 450px;
+  margin-left: 17%;
+
+}
+/*******************oeuvres a decouvrir*********************************/
+.title {
+  font-size: 30px;
+
+}
+
+#oeuvres img {
+  height: 800px;
+}
+
+.article {
+  height: 800px;
+}
+/*****************bottom galerie**********************************/
+#border {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size:20px;
+  margin: auto;
+
+}
+
+/*****************galerie instagram*******************************/
+#insta {
+  display: flex;
+  flex-flow: row wrap;
+}
+.photoinsta  {
+  width: 50%;
+
+}
+
+#hidden {
+  visibility: hidden;
+}
+
+/******************télecharger nos applications********************/
+
+#applications {
+margin-top: -390px;
+}
+
+#telecharger {
+  padding-top: 300px
+}
+
+#applications h2 {
+  font-size: 25px;
+  border: 3px solid white;
+  padding: 30px 0;
+}
+
+#applications span {
+  font-size: 30px;
+}
+
+/*******************before footer********************************/
+
+#autre h2 {
+  font-size: 25px;
+  padding: 35px 0 35px 0;
+}
+
+}
+
+
+/**************************Desktop*************************************
+*************************************************************************/
+@media (min-width:980px) {
+
+.logo-pba-mobile-hp {
+  visibility: hidden;
+}
+
+#video {
+  display:inline-block;
+  height: 600px;
+
+  }
+#visiter,#collection{
+  position: relative;
+  display: inline-block;
+  width: 48%;
+}
+#visiter a,#collection a{
+  top: 230px;
+}
+
+.titre {
+  font-size: 50px;
+}
+
+#video p {
+  font-size: 30px
+}
+
+#video img {
+margin-top: 100px;
+
+
+}
+
+
+/********************slider*******************************/
+
+#slider h3 {
+  font-size: 50px;
+}
+
+#slider h4 {
+  font-size: 30px;
+}
+
+/********************Oeuvres à decouvrir************************************/
+
+#adecouvrir h2 {
+  font-size: 30px;
+
+}
+
+#adecouvrir P {
+  font-size: 20px;
+}
+
+
+#oeuvres img {
+  height: 450px;
+}
+
+.article {
+  height: 450px !important;
+  padding: 0 !important;
+}
+
+.title{
+  font-size: 20px;
+}
+
+.encart {
+  padding: 35px 35px 130px 35px;
+  left: 15%;
+  bottom:5%;
+  width: auto;
+  height: 220px;
+}
+/*********************bottom gallerie***************************/
+#border{
+  width: 40%;
+  padding-top: 20px ;
+  padding-bottom: 20px;
+}
+
+/***********************Gallerie instagram*************************/
+#insta {
+  flex-wrap: nowrap;
+}
+
+#hidden {
+  visibility: visible;
+}
+
+/************************Télecharger nos applications************************/
+
+
+#applications {
+  margin-top: 0 !important;
+}
+#applications h2 {
+  font-size: 24px;
+  border: none;
+
+}
+
+#telecharger {
+  width: 35%;
+  margin: auto;
+  padding: 30px 0 30px 0;
+}
+
+/*********************before footer***********************************************/
+
+#autre h2 {
+  border: none;
+  font-size: 20px;
+}
+
+#lille {
+  display: inline-block;
+  width: 48%;
+}
+
+#culturel{
+  display: inline-block;
+  width: 50%;
+}
+
+
+}
 
 
 
