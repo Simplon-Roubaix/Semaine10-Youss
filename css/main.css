@@ -110,6 +110,8 @@ textarea {
    body {
      background-color: black;
    }
+
+
 /**********************Section video******************************************/
 /* {
   border: 1px solid black;
@@ -187,7 +189,7 @@ textarea {
    margin-bottom: 80px;
  }
 
- /***************gallerie instagram**********************/
+ /********************************gallerie instagram**********************/
 
 .photoinsta:hover {
   -webkit-filter: opacity(0.5) drop-shadow(0 0 0 red);
@@ -250,18 +252,18 @@ textarea {
 #collection a{
   position: absolute;
   left: 100px;
-  top: 100px;
+  top: 230px;
 }
 
 #visiter a {
   position: absolute;
   left: 80px;
-  top: 250px;
+  top: 350px;
 }
 
 #video img {
   width: 70%;
-  height: 180px;
+  height: 230px;
   margin-left: 17%;
 
 }
@@ -404,7 +406,7 @@ textarea {
 #collection a{
   position: absolute;
   left: 35%;
-  top: 25%;
+  top: 33%;
   font-size: 30px;
 
 }
@@ -412,14 +414,14 @@ textarea {
 #visiter a {
   position: absolute;
   left: 25%;
-  top: 450px;
+  top: 610px;
   font-size: 30px;
 
 }
 
 #video img {
   width: 100%%;
-  height: 300px;
+  height: 450px;
   margin-left: 17%;
 
 }
@@ -499,7 +501,7 @@ margin-top: -390px;
 
 #video {
   display:inline-block;
-  height: 400px;
+  height: 600px;
 
   }
 #visiter,#collection{
@@ -508,7 +510,7 @@ margin-top: -390px;
   width: 48%;
 }
 #visiter a,#collection a{
-  top: 30px;
+  top: 230px;
 }
 
 .titre {
@@ -520,7 +522,8 @@ margin-top: -390px;
 }
 
 #video img {
-  visibility: hidden;
+margin-top: 100px;
+
 
 }
 
