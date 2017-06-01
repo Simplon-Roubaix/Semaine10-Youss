@@ -1,0 +1,341 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/normalize.css">
+          <link rel="stylesheet" href="css/visiter.css">
+        <link rel="stylesheet" href="css/main.css">
+
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+
+<!--***************HEADER************************************-->
+
+<header class="entete w-100">
+
+       <figure class="no-mobile titre1">
+           <a href="index.html"><img src="img/titre.png" alt="titre"></a>
+       </figure>
+
+
+       <!--  nav non mobile -->
+       <ul class="no-mobile menu">
+           <li><a href="index.html">COLLECTIONS</a></li>
+           <li><a href="pages/visiter.html">VISITER</a></li>
+           <li><a href="pages/agenda.html">AGENDA</a></li>
+           <li><a href="#">INFOS</a></li>
+       </ul>
+
+       <form class="no-mobile form">
+           <div class="search">
+               <input type="search" name="" value="">
+               <span class="icon flaticon-uniE92A"></span>
+           </div>
+       </form>
+       <div class="langueselect no-mobile">
+           <ul>
+               <li>
+                   <i class="fa fa-angle-down" style="font-size:24px"></i><a href="#">français</a>
+               </li>
+           </ul>
+       </div>
+       <!--  nav mobile & tablette  -->
+       <div class="nav-mobile-right">
+           <div class="search">
+               <a href="#"><i class="fa fa-search fa-2x" aria-hidden="true"></i></a>
+           </div>
+           <div class="info">
+               <a href="#"><i class="fa fa-info-circle fa-2x " aria-hidden="true "></i></a>
+           </div>
+
+           <div class="button-burger">
+               <button onclick="myFunction()" class="dropbtn"> <i class="fa fa-bars fa-x " aria-hidden="true "></i></button>
+               <div id="monmenu" class="menu-cache">
+                   <a href="#"><span class="icon flaticon-uniE905"></span> Collections</a>
+                   <a href="pages/visiter.html"><span class="icon flaticon-uniE922"></span> Visiter</a>
+                   <a href="#"><span class="icon flaticon-uniE92B"></span> Agenda</a>
+                   <a href="#"><span class="icon flaticon-uniE92B"></span>contactez-nous</a>
+               </div>
+           </div>
+       </div>
+
+       <aside class="logo-palais">
+
+       </aside>
+   </header>
+
+<!--***************************Video******************************-->
+      <section id="video">
+        <div class="logo-pba-mobile-hp icon visible-mobile"><span class="need-mr">palais</span><!--
+        --><span class="need-tiret">beaux</span><!--
+                --><span class="need-mr">arts</span><!--
+                --><span>lille</span>
+                </div>
+
+  <article id="collection">
+        <img src="img/deco-up.svg" alt="">
+    				<a href="">
+      				<h2 class="titre">Collections</h2>
+      				<p>Découvrez les Œuvres</p>
+            </a>
+
+  			</article>
+
+        <article id="visiter">
+        <img src="img/deco-up.svg" alt="">
+    				<a href="">
+      				<h2 class="titre">Visiter</h2>
+      				<p>Infos / parcours / applications</p>
+            </a>
+
+  			</article>
+
+
+        </section>
+
+  <!--**********************Slider Image*****************************-->
+<section id="slider">
+  <div id="carouselExampleIndicators" class="carousel" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+
+      <div class="carousel-caption d-none d-md-block">
+
+        <h3>OPEN MUSEUM #4 ALAIN PASSARD</h3>
+        <h4>UN CUISINIER REVEILLE LE PALAIS</h4>
+        <p>du 08 Avril au 16 juillet 2017</p>
+      </div>
+      <img class="d-block img-fluid" src="img/backgroundalain.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>REJOINGNEZ-NOUS!</h3>
+        <h4>MECENAT COLLABORATIF AUTOUR DU PALN-RELIEF DE LILLE</h4>
+        <p>jusqu'au 30 juin 2017 2017</p>
+      </div>
+      <img class="d-block img-fluid" src="img/slider2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>LE MUSEE SE REINVENTE</h3>
+        <h4>1ER ETAPE: L'ATRIUM</h4>
+        <p>Nouveaux espaces, nouveaux outils de mediation numérique...à découvrir des le 23 juin 2017.</p>
+      </div>
+      <img class="d-block img-fluid" src="img/slider3.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</section>
+
+<!--*****************Oeuvres a decouvrir**************************-->
+<div id="adecouvrir">
+  <h2>4 OEUVRES CLÉS</h2>
+  <p>à découvrir</p>
+</div>
+
+<section id="oeuvres" class="row">
+
+  <article class="col-sm-12 col-md-12 col-lg-3 article">
+    <a href="">
+    <img src="img/oeuvre1.jpg" alt="oeuvres">
+    <div class="encart">
+      <div class="title">FAUX BOSH<br>VRAI<br>CHEF-D'OEUVRES</div>
+      <span class="autor">Jérôme Bosh</span>
+    </div>
+    </a>
+  </article>
+
+  <article class="col-sm-12 col-md-12 col-lg-3 article">
+    <a href="">
+    <img src="img/oeuvre2.jpg" alt="oeuvres">
+    <div class="encart">
+      <div class="title">LA MADONE EST<br>UN HOMME!</div>
+      <span class="autor">Raphaël</span>
+    </div>
+    </a>
+  </article>
+
+  <article class="col-sm-12 col-md-12 col-lg-3 article">
+    <a href="">
+    <img src="img/oeuvre3.jpg" alt="oeuvres">
+    <div class="encart">
+      <div class="title">MIROIR, MON<br>BEAU MIROIR</div>
+      <span class="autor">Franscisco de goya<br>y lucientes</span>
+    </div>
+    </a>
+  </article>
+
+  <article class="col-sm-12 col-md-12 col-lg-3 article">
+    <a href="">
+    <img src="img/oeuvre4.jpg" alt="oeuvres">
+    <div class="encart">
+      <div class="title">1 CM DE<br>PERSPECTIVE</div>
+      <span class="autor">Donatello</span>
+    </div>
+    </a>
+  </article>
+
+</section>
+
+<!--************************bottom galerie***************************-->
+<section id="bottompicture">
+
+  <article id="afficher">
+    <div id="border">
+      <a href="">AFFICHER PLUS D'OEUVRES</a>
+    </div>
+  </article>
+
+  <article id="instagram">
+    <div>
+      <h2>INSTAGRAM</h2>
+      <span># PBALILLE</span>
+    </div>
+  </article>
+
+</section>
+
+<!--**********************Galerie instagram***********************************-->
+
+<section id="insta" >
+
+<div class="photoinsta"><a href=""><img src="img/insta1.jpg" alt="instagram"></a></div>
+<div class="photoinsta"><a href=""><img src="img/insta2.jpg" alt="instagram"></a></div>
+<div class="photoinsta"><a href=""><img src="img/insta3.jpg" alt="instagram"></a></div>
+<div class="photoinsta"><a href=""><img src="img/insta4.jpg" alt="instagram"></a></div>
+<div class="photoinsta"><a href=""><img id="hidden" src="img/insta5.jpg" alt="instagram"></a></div>
+
+</section>
+
+<!--*********************Télécharger nos application*********************************-->
+
+<section id="applications">
+  <div id="telecharger">
+    <h2>TELECHARGER NOS APPLICATIONS</h2>
+    <span>LAISSER VOUS GUIDER</span>
+  </div>
+</section>
+
+<!--*********************Before footer***********************************************-->
+
+<section id="autre">
+
+  <div id="lille">
+    <h2>A LILLE EN CE MOMENT</h2>
+  </div>
+  <div id="culturel">
+    <h2>LES AUTRES SITES CULTURELS DE LA VILLE</h2>
+  </div>
+
+</section>
+
+<!--********************FOOTER***************************************************-->
+
+<footer class="container-fluid">
+       <div class="container footer">
+
+          <div class="row">
+               <section class="list col-lg-3">
+                   <h3>INFO PRATIQUE</h3>
+                   <ul>
+                       <li>OUVERT : LUN. 14H-18H</li>
+                       <li>MERC. > DIM.10H - 18H. FERMé LE MARDI.</li>
+                       <li>TARIF PLEIN 7€/TARIF REDUIT 4€</li>
+                       <li>PLACE DE LA REPUBLIQUE 59000 LILLE</li>
+                   </ul>
+               </section>
+
+              <section class="list col-lg-3">
+                   <h3>MUSEE PRIVE</h3>
+                   <ul>
+                       <li>DEVENIR MECENE</li>
+                       <li>SOUTENIR UN PROJET</li>
+                       <li>ORGANISER UN EVENEMENT</li>
+                       <li>ADHERER</li>
+                   </ul>
+               </section>
+
+              <section class="list col-lg-3">
+                   <h3>PRESSE</h3>
+                   <ul>
+                       <li>DOSSIER DE PRESSE</li>
+                       <li>PHOTOTHEQUE</li>
+                   </ul>
+               </section>
+
+              <section class="list col-lg-3">
+                   <h3>SUIVEZ-NOUS</h3>
+
+                  <div class="container">
+                       <ul class="row">
+                           <li class="offset-1">SUR NOS RESEAUX SOCIAUX</li>
+                           <li class="offset-4">
+                               <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                           </li>
+                           <li class="offset-1">
+                               <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                           </li>
+                           <li class="offset-1">
+                               <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                           </li>
+                           <li class="offset-1">
+                               <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                           </li>
+                       </ul>
+                   </div>
+               </section>
+           </div>
+       </div>
+   </footer>
+
+
+
+
+
+
+
+
+
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/boostrap.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
